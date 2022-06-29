@@ -1,3 +1,18 @@
+:root {
+  --blue: #3498db;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--blue);
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .App {
   text-align: center;
 }
